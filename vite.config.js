@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base:"/bigScreenProject/",
    // 打包配置
    build: { 
     // base: "/a000tc/",
