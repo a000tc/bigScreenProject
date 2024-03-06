@@ -11,7 +11,7 @@ export default defineConfig({
   // 打包配置
   build: {
     // target: 'modules',
-    publicPath: './',
+    // publicPath: './',
     // outDir: 'dist', //指定输出路径
     // assetsDir: 'assets', // 指定生成静态资源的存放路径
   },
