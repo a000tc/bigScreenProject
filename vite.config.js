@@ -11,8 +11,7 @@ export default defineConfig({
    build: { 
     // base: "/a000tc/",
     // target: 'modules',
-    // publicPath: '/bigScreenProject/',
-    base:"/bigScreenProject/"
+    publicPath: '/bigScreenProject/',
     // outDir: 'dist', //指定输出路径
     // assetsDir: 'assets', // 指定生成静态资源的存放路径
 },
