@@ -7,15 +7,14 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base:"/bigScreenProject/",
-   // 打包配置
-   build: { 
-    // base: "/a000tc/",
+  base: "/bigScreenProject/",
+  // 打包配置
+  build: {
     // target: 'modules',
-    publicPath: '/bigScreenProject/',
+    // publicPath: '/bigScreenProject/',
     // outDir: 'dist', //指定输出路径
     // assetsDir: 'assets', // 指定生成静态资源的存放路径
-},
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
